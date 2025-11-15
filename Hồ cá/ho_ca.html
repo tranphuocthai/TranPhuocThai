@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Hồ cá vui nhộn</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div id="hoCa">
+    <div id="caMap" class="fish"><img src="images/aquarium_shark.png"></div>
+    <div id="ruaBien" class="fish"><img src="images/aquarium_turtle.png"></div>
+    <div id="thoLan1" class="diver"><img src="images/aquarium_diver1.png"></div>
+    <div id="thoLan2" class="diver"><img src="images/aquarium_diver2.png"></div>
+    <div id="thoLan3" class="diver"><img src="images/aquarium_diver3.png"></div>
+    <div id="caVang" class="fish"><img src="images/goldFishSchool.png"></div>
+    <div id="caNhat" class="fish"><img src="images/faintSchool.png"></div>
+
+    <div id="bongBong"></div>
+    <div id="songNuoc"></div>
+  </div>
+
+  <div id="bangDieuKhien">
+    <button class="btn" onclick="doiNen()">🎨 Đổi nền</button>
+    <button class="btn" onclick="phatDungNhac()">🎵 Phát / Dừng</button>
+    <button class="btn" onclick="chuyenBaiHat()">⏭️ Đổi nhạc</button>
+  </div>
+
+  <audio id="nhacNen" loop></audio>
+  <audio id="tiengVaCham" src="music/splash.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

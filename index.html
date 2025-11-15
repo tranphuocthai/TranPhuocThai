@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ Bài Tập</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 550px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #0056b3;
+            font-size: 2.25rem;
+            margin-bottom: 15px;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto;
+        }
+        .info-list li {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .info-list li span {
+            font-weight: 700;
+            color: #333;
+            width: 80px;
+            display: inline-block;
+        }
+        .navigation {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .nav-link {
+            display: block;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 18px 25px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background-color: #f8f9fa;
+            color: #007bff;
+            border: 2px solid #007bff;
+        }
+        .nav-link:hover {
+            background-color: #007bff;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Trang Chủ</h1>
+            <ul class="info-list">
+                <li><span>Tên:</span> Trần Phước Thái</li>
+                <li><span>Lớp:</span> CNTT.B</li>
+                <li><span>MSV:</span> 51.01.104.091</li>
+            </ul>
+        </header>
+        <nav class="navigation">
+            <a href="CV Cá nhân/index.html" class="nav-link">
+                Dự án 1: CV Cá Nhân
+            </a> 
+            <a href="Hồ cá/Ho_ca.html" class="nav-link">
+                Dự án 2: Hồ Cá Vui Nhộn
+            </a>
+        </nav>
+    </main>
+</body>
+</html>

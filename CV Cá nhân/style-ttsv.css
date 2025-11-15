@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+    background-color: #f0f2f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.back-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #1976D2; 
+}
+
+.student-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+
+.card-header {
+    background-color: #f0f2f5; 
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ced4da; 
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto 15px auto;
+}
+
+.student-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+
+.card-body {}
+
+.info-title {
+    background-color: #004a99; 
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info-list li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f2f5; 
+    font-size: 1rem;
+}
+
+.info-list li:last-child {
+    border-bottom: none; 
+}
+
+
+.info-list li span {
+    color: #555; 
+}
+
+
+.info-list li strong {
+    color: #222; 
+    text-align: right;
+}
+
+@media (max-width: 480px) {
+    .back-link {
+        top: 10px;
+        left: 10px;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .student-card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
